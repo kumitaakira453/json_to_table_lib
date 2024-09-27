@@ -6,7 +6,7 @@ module.exports = {
         filename: "index.js",
         path: path.resolve(__dirname, "dist"),
         library: "jsonToTableLib",
-        libraryTarget: "umd", // UMD形式でエクスポート
+        libraryTarget: "window",
     },
     module: {
         rules: [
